@@ -1,0 +1,13 @@
+.container {
+    @include flex-box(row-reverse, space-between);
+    width: 600px;
+    height: 400px;
+    background-color: #eaeaea;
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: lightgreen;
+        line-height: 60px;
+        text-align: center;
+    }
+}

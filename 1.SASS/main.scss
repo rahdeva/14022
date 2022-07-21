@@ -1,0 +1,13 @@
+$myColor: lightskyblue;
+$myColor2: blue;
+header {
+    background-color: $myColor;
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    p {
+        color: $myColor2;
+    }
+}
